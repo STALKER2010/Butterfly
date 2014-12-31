@@ -1,8 +1,8 @@
 Butterfly
 =========
-
 Async task engine.
-
+# Example
+Repo is Android Studio project, which has butterflytest project - performance test app.
 # How to use Butterfly?
 ### Activity
 In onCreate add ```Butterfly.get().context(this)``` BEFORE ```super.onCreate(sav)```.
