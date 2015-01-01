@@ -22,7 +22,7 @@ public final class Butterfly {
     final BackendThreadPool backendThreadPool;
 
     private Butterfly() {
-        backendThreadPool = new BackendThreadPool(false);
+        backendThreadPool = new BackendThreadPool();
         logMem("instantiating");
     }
 
